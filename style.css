@@ -44,6 +44,18 @@ html {
   color: var(--white);
 }
 
+.list-items a:visited {
+  color: var(--white);
+}
+
+.list-items a:active {
+  color: var(--white);
+}
+
+.list-items a:hover {
+  color: var(--white);
+}
+
 .list-items:hover {
   border-bottom: 2px solid var(--white);
   cursor: pointer;
@@ -357,6 +369,10 @@ footer a:hover {
 
 /* Tablet (768px - 991px) */
 @media (max-width: 991px) and (min-width: 768px) {
+  html {
+    scroll-padding-top: 90px;
+  }
+  
   .navbar {
     padding: 15px;
   }
@@ -488,6 +504,10 @@ footer a:hover {
 
 /* Mobile Landscape (576px - 767px) */
 @media (max-width: 767px) and (min-width: 576px) {
+  html {
+    scroll-padding-top: 120px;
+  }
+  
   .navbar {
     padding: 10px;
     flex-direction: column;
@@ -658,6 +678,10 @@ footer a:hover {
 
 /* Mobile Portrait (below 576px) */
 @media (max-width: 575px) {
+  html {
+    scroll-padding-top: 130px;
+  }
+  
   .navbar {
     padding: 10px 5px;
     flex-direction: column;
